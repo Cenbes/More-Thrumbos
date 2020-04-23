@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>GingerThrumboHorn</defName>
+    <label>ginger thrumbo horn</label>
+    <description>A Ginger Thrumbo's horn. It's razor-sharp, steel-hard, and priceless in most markets. This is a really true trophy, as well as a more then deadly melee weapon.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/GingerThrumbo_Horn/GingerThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>25</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>BlondThrumboHorn</defName>
+    <label>blond thrumbo horn</label>
+    <description>A blond Thrumbo's horn. It's razor-sharp, steel-hard, and priceless in most markets. This is a really true trophy, as well as a more then deadly melee weapon.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/BlondThrumbo_Horn/BlondThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.05</Flammability>
+      <DeteriorationRate>0.05</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>35</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <!--=============== Bionic Thrumbo Horn ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>BionicThrumboHorn</defName>
+    <label>bionic thrumbo horn</label>
+    <description>Resilient, heavy and very strong bionic Thrumbo horn, it is too heavy to be used as held weapon, but it have its value.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/BionicThrumbo_Horn/BionicThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>16</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>16</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+	<thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <!--=============== Ancient Bionic Thrumbo Horn ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AncientBionicThrumboHorn</defName>
+    <label>ancient bionic thrumbo horn</label>
+    <description>Ancient and broken, but it have its value.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/AncientBionicThrumbo_Horn/AncientBionicThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>16</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+	<thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <!--=============== TalAlarian Black Thrumbo Horn ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>TalAlarianBlackThrumboHorn</defName>
+    <label>bionic thrumbo horn</label>
+    <description>Resilient, heavy and very strong bionic Thrumbo horn, it is too heavy to be used as held weapon, but it have its value.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/TalAlarianBlack_Horn/TalAlarianBlackThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>16</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>8</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+	<thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <!--=============== TalAlarian Silver Thrumbo Horn ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>TalAlarianSilverHorn</defName>
+    <label>bionic thrumbo horn</label>
+    <description>Resilient, heavy and very strong silver Thrumbo horn, it is too heavy to be used as held weapon, but it have its value.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/TalAlarianSilver_Horn/TalAlarianSilverHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>16</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>8</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+	<thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+</Defs>
