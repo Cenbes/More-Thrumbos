@@ -1,0 +1,279 @@
+Old source was made to support regular Thrumbo spawning event (Ginger & Blond)
+I added Two more Thrumbos (Ancient Bionic and Bionic)
+
+
+
+Legend - first part is thought description, second is specification of some things and thirs is comp ideas
+Second and third comp and spawn events is something i really need for mod integrity, first come would be really cool to have.
+
+
+
+<-- All thougts in this text are just as explanation of idea, thougts are set in comp reference down bellow, it would be cool if they could support multiple "CompProperties_DynamicVoice" in one cmops entry to make sure they will have different effect to ally, enemy neutral etc.
+
+- Bionic Thrumbo is newer version of modified animal. These Thrumbos are specialy modified to be teared apart and get replaced most biologycal parts with bionics. They are used by mechanoids as scouts for neolitic tribes.
+They can mimic sounds of other animals for their own amusmend (It would cool of Comp entry would be possible to add any sound from game to list that Thrumbo will randomly play if colonists are near. [This is only if they are not controlled!] Thought ->defName **HappyThrumboNoises).
+When they attacking they use various sounds to scare inteligent pawns off and break morale (It would cool of Comp entry would be possible to add any sound from game to list that Thrumbo will randomly play if enemy colonists are near. [This is only at enemy pawns]),
+this effect will apply mood debuf (Thought ->defName **AngryThrumboNoises).
+
+- Ancient Bionic -> it is supposed to wander wilds as regular Thrumbo, it lost it's comms, anthena or  any part needed to be controled by mechanoid hive long time ago.
+It should spawn as regular Thrumbos, more rare jsut like regular. It can be atracted to spaces where is action, so if is possible ot make it as rare spawn near colonies or on map events it would be cool.
+These trumbos should share same comps for sounds just with modified pitch that is jumping from place to place.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-Bionic Thrumbos are mostly controled by mechanoid "defName Mech_ControllerCentipedePawn" (This control works only if all tehse three parts are active in mech "ThrumboControlModule, ModifiedCommsRelay, StrongAnthena" and 
+Thrumbos have this part active "ThrumboBrainModification_ProtocolLibrary, AnimalBrainModification_ProtocolLibrary, BrainModification_ProtocolLibrary"). 
+Thrumbos from attack herd should have chance to join player (it would be cool if it can be modified in comp of centipide % chance and list of creatures) -> Comp idea is under first one
+
+Mechanoid controllers should spawn in mechanoid clusters and all other mechanoid event (not is ship parts tho :D) with couple of Thrumbos
+
+Spawn Events 
+- Ginger, Blond, Ancient as regular (ancient more rare) thrumbos
+- Ancient Thrumbos around urban areas and events
+- Bionic Thrumbos with damaged Protocol library near urban areas and events too
+- Mechanoid controller as special raid event on colony with one controller and 3-N/A Thrumbos (scales as raids) -> if controleler dies or vital parts are destroied Thrumbos should have chance o join player oclony but mostly wander around.
+- Mechanoid controller passing by (like visitors, but this controller will not attack on its own)
+- Mechanoid controller spotted (Your colony spotted mechanoid controller with Trumbos nearby, you can destroy it and get something out of it or leaver it and risk its raid or disspearing of nearby setllement)
+- Injured Bionic Thrumbo wandered in map (you cna heal it and get it) very rare event
+
+Comp Idea
+
+<comps>
+    <li Class="CompProperties_DynamicVoice">
+	
+		<activeNearFriendlyAnimal>True/False</activeNearFriendlyAnimal>
+		<activeNearEnemyAnimal>True/False</activeNearEnemyAnimal>
+		
+		<activeNearNeutralAnimal>True/False</activeNearNeutralAnimal>
+		<activeNearNeutralPawn>True/False</activeNearNeutralPawn>
+		
+		<activeNearFriendlyPawn>True/False</activeNearFriendlyPawn>
+		<activeNearEnemyPawn>True/False</activeNearEnemyPawn>
+		
+        <randomPitch>True/False</randomPitch>
+		<changingPitchMidSound>True/False</changingPitchMidSound>
+		
+		<li>
+			<soundsList>
+				<li>Sound1</li>
+				<li>Sound2</li>
+				<li>Sound3</li>
+				<li>Sound4</li>
+				<li>Sound5</li>
+				xxx
+			</soundsList>
+		</li>
+		
+		<affectionRange>1-N/A</affectionRange>
+		
+			<li>
+				<applyHediffIfNear>
+					<li>Hediff1</li>
+					<li>Hediff2</li>
+					<li>Hediff3</li>
+					<li>Hediff4</li>
+					<li>Hediff5</li>
+					xxx
+				</applyHediffIfNear>
+			</li>
+			
+			<li>
+				<applyThoughtIfNear>
+					<li>Thought1</li>
+					<li>Thought2</li>
+					<li>Thought3</li>
+					<li>Thought4</li>
+					<li>Thought5</li>
+					xxx
+				</applyThoughtIfNear>
+			</li>
+		
+			<applyDamageIfNear>True/False</applyDamageIfNear>
+				<applyDamageCurve>True/False</applyDamageCurve>
+					<DamageCurve>
+						<points>
+							<li>(1,0)</li>
+							<li>(3,5)</li>
+							<li>(5,250)</li>
+							<li>(8,250)</li>
+							<li>(10,150)</li>
+							xxx
+						</points>
+					</DamageCurve>
+				<setDamage> x </setDamage> (this only if Damage Curve is False)
+			
+			<applyPartDamageIfNear>True/False</applyPartDamageIfNear>
+				<li>
+					<applyPartDamagePartsList>
+						<li>Part1</li>
+						<li>Part2</li>
+						<li>Part3</li>
+						<li>Part4</li>
+						<li>Part5</li>
+						xxx
+					</applyPartDamagePartsList>
+					
+					<applyDamageCurve>True/False</applyDamageCurve>
+						<DamageCurve>
+							<points>
+								<li>(1,0)</li>
+								<li>(3,5)</li>
+								<li>(5,250)</li>
+								<li>(8,250)</li>
+								<li>(10,150)</li>
+								xxx
+							</points>
+						</DamageCurve>
+					<setDamage> x </setDamage> (this only if Damage Curve is False)
+				</li>
+    </li>
+</comps>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Second Comp Idea
+
+<comps>
+    <li Class="CompProperties_DynamicControl">
+	
+		<mustHaveActiveProtocolLibrary>True/False</mustHaveActiveProtocolLibrary>
+		<canControlAnimals>True/False</canControlAnimals>
+		<canControlHumanlike>True/False</canControlHumanlike>
+		
+		<targetFriendlyPawns>True/False</targetFriendlyPawns>
+		<targetNeutralPawns>True/False</targetNeutralPawns>
+		<targetEnemyPawns>True/False</targetEnemyPawns>
+		
+		<controlRange>1-N/A</controlRange>
+		
+        <canConnectAnyPossibleCreature>True/False</canConnectAnyPossibleCreature>
+		<canCallReinforcments>True/False</canCallReinforcments> (it can randomly spawn more controlled units from list -> all units should sapwn with right protocol library)
+		<li>
+			<reinformcentsList>
+				<li>ReinforcingPawnKind1</li>
+				<li>ReinforcingPawnKind2</li>
+				<li>ReinforcingPawnKind3</li>
+				<li>ReinforcingPawnKind4</li>
+				<li>ReinforcingPawnKind5</li>
+				xxx
+			</reinformcentsList>
+		</li>
+		
+		<canCallMechanoidReinforcments>True/False</canCallMechanoidReinforcments> (it can randomly spawn more controlled units from list -> all units should sapwn with right protocol library)
+		<li>
+			<mechanoidReinformcentsList>
+				<li>ReinforcingPawnKind1</li>
+				<li>ReinforcingPawnKind2</li>
+				<li>ReinforcingPawnKind3</li>
+				<li>ReinforcingPawnKind4</li>
+				<li>ReinforcingPawnKind5</li> (can set "DynamicMech" for any Mechanoid type from game [like ship part is doing])
+				xxx
+			</mechanoidReinformcentsList>
+		</li>
+		
+		<canApplyBuffHediff>True/False</canApplyBuffHediff>
+		<li>
+			<applyHediffIfBuff>
+				<li>Hediff1</li>
+				<li>Hediff2</li>
+				<li>Hediff3</li>
+				<li>Hediff4</li>
+				<li>Hediff5</li>
+				xxx
+			</applyHediffIfBuff>
+		</li>
+    </li>
+</comps>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Third Comp Idea
+
+<comps>
+    <li Class="CompProperties_AnimalWork">
+	
+		<allBelowRandom>True/False</allBelowRandom> (if set true all stats below are made random [creature can do only animal or humanlike work, not both])
+		<allBelowRandomForEveryAnimal>True/False</allBelowRandomForEveryAnimal> (If true every syngle pawn got his own unique random settings)
+		
+		<mustHaveActivePSSEE>True/False</mustHaveActivePSSEE>
+		<canBeCommunicate>True/False</canBeCommunicate> (If true it should have social)
+		<canBeTrained>True/False</canBeTrained>
+		<canBeDrafted>True/False</canBeDrafted> (animal will need working TPCC module)
+		<canHaveHumanlikeInventory>True/False</canHaveHumanlikeInventory> (if false, have animal regular)
+		<canBeTamed>True/False</canBeTamed> (If false this creature must be recruited insted)
+		<canDoAnimalWork>True/False</canDoAnimalWork> (if true can't do humanlike)
+		<canDoHumanlikeWork>True/False</canDoHumanWork> (if true can't due animal)
+		
+		<jobList>True/False</jobList> (if False jobs are random)
+		<li>
+			<jobsList>
+				<li>Job1</li>
+				<li>Job2</li>
+				<li>Job3</li>
+				<li>Job4</li>
+				<li>Job5</li>
+				xxx
+			</jobsList>
+		</li>
+		
+		<dissalowedThoughtsList>True/False</dissalowedThoughtsList> (if False, this part is ignored)
+		<li>
+			<thoughtsList>
+				<li>Thought1</li>
+				<li>Thought2</li>
+				<li>Thought3</li>
+				<li>Thought4</li>
+				<li>Thought5</li>
+				xxx
+			</thoughtsList>
+		</li>
+		
+		<allowedThoughtsList>True/False</allowedThoughtsList> (if False, this part is ignored)
+		<li>
+			<thoughtsList>
+				<li>Thought1</li>
+				<li>Thought2</li>
+				<li>Thought3</li>
+				<li>Thought4</li>
+				<li>Thought5</li>
+				xxx
+			</thoughtsList>
+		</li>
+		
+		<dissalowedTraitsList>True/False</dissalowedTraitsList> (if False, this part is ignored)
+		<li>
+			<traitsList>
+				<li>Trait1</li>
+				<li>Trait2</li>
+				<li>Trait3</li>
+				<li>Trait4</li>
+				<li>Trait5</li>
+				xxx
+			</traitsList>
+		</li>
+		
+		<allowedTraitsList>True/False</allowedTraitsList> (if False, this part is ignored)
+		<li>
+			<traitsList>
+				<li>Trait1</li>
+				<li>Trait2</li>
+				<li>Trait3</li>
+				<li>Trait4</li>
+				<li>Trait5</li>
+				xxx
+			</traitsList>
+		</li>
+		
+		<pernamentHeddifs>True/False</pernamentHeddifs> (if False, this part is ignored)
+		<li>
+			<hediffIfBuff>
+				<li>Hediff1</li>
+				<li>Hediff2</li>
+				<li>Hediff3</li>
+				<li>Hediff4</li>
+				<li>Hediff5</li>
+				xxx
+			</hediffIfBuff>
+		</li>
+    </li>
+</comps>
