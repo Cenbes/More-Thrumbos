@@ -5,6 +5,8 @@ Legend - first is main hiarchy of need for mod, second  part is thought descript
 Second and third comp and spawn events is something i really need for mod integrity, first come would be really cool to have.
 
 
+!!!Damaged Bionic Thrumbo is missing some textures, it can use bbionic ones insted as temporal solution!!!
+
 
 -> Mod itself need be atleast functional spawning event:Aka it needs to be able to spawn following creatures as special event (similar to Thrumbo spawn event) those are Blond and Ginger Thrumbos that should be more ocmmon then regular Thrumbos, Tal'Arian Thrumbos that should be more rare then regular thrumbo (black rarest) - (if it i possible Tal'arian thrumbos should spawn throu portal in some very rare cases). 
 -> Bionic Thrumbos are chapter on it's own, it was planned to make them spawn in wild eith damaged body part, or damaged whole Thrumbos, and as attacking force accompanied by Controller. Think is, if Body part is destroyied or missing Thrimbos can't be controlled or overriten by controller, this body part can be instaled into any living think and player was supposed ot be able to get an event that would spawn broken Thrumbo Controller that player can repair and use to hijack animals and ppl. 
