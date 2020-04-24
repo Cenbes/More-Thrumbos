@@ -1,12 +1,16 @@
 Old source was made to support regular Thrumbo spawning event (Ginger & Blond)
-I added Two more Thrumbos (Ancient Bionic and Bionic)
+I added more Thrumbos and one mechanoid (Controller, Ancient Bionic, Bionic and TalArian Silver/Black)
 
-
-
-Legend - first part is thought description, second is specification of some things and thirs is comp ideas
+Legend - first is main hiarchy of need for mod, second  part is thought description, third is specification of some things and thirs is comp ideas
 Second and third comp and spawn events is something i really need for mod integrity, first come would be really cool to have.
 
 
+
+-> Mod itself need be atleast functional spawning event:Aka it needs to be able to spawn following creatures as special event (similar to Thrumbo spawn event) those are Blond and Ginger Thrumbos that should be more ocmmon then regular Thrumbos, Tal'Arian Thrumbos that should be more rare then regular thrumbo (black rarest) - (if it i possible Tal'arian thrumbos should spawn throu portal in some very rare cases). 
+-> Bionic Thrumbos are chapter on it's own, it was planned to make them spawn in wild eith damaged body part, or damaged whole Thrumbos, and as attacking force accompanied by Controller. Think is, if Body part is destroyied or missing Thrimbos can't be controlled or overriten by controller, this body part can be instaled into any living think and player was supposed ot be able to get an event that would spawn broken Thrumbo Controller that player can repair and use to hijack animals and ppl. 
+-> Bionic Thrumbos should have inbuilded enhancer for tlakign and speaking (viz Comps below).
+-> There was plan for boss, Big thrumbo that would use Building regular HP stat and would change texture as it get damaged acompanied with abilities. Thrumbo itself should be able to have mounted two weapons on both front legs (one will render behind it) that would be bound to specialez body parts, these weapons should continue firing at targets even if thrumbo is in melle combat, also it should have inbuilded orbital targeter.
+-> These boses can came if player would mess with mechanoids to much, as extremely rare late game raid event, or as shananigan. This Thrumbos should come acompanied with several random mechanoids and bionic thrumbos "This boss works as controller"
 
 <-- All thougts in this text are just as explanation of idea, thougts are set in comp reference down bellow, it would be cool if they could support multiple "CompProperties_DynamicVoice" in one cmops entry to make sure they will have different effect to ally, enemy neutral etc.
 
