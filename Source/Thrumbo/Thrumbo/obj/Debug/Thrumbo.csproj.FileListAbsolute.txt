@@ -1,0 +1,15 @@
+H:\Download\RimWorldModding\Repository\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csprojAssemblyReference.cache
+H:\Download\RimWorldModding\Repository\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csproj.CoreCompileInputs.cache
+H:\Download\RimWorldModding\Repository\Thrumbo\Thrumbo\obj\Debug\Thrumbo.dll
+H:\Download\RimWorldModding\Repository\Thrumbo\Thrumbo\obj\Debug\Thrumbo.pdb
+H:\Thrumbo.dll
+H:\Thrumbo.pdb
+C:\Users\Cenbes\Desktop\MOD-PRACE\Ginger Thrumbo\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csprojAssemblyReference.cache
+C:\Users\Cenbes\Desktop\MOD-PRACE\Ginger Thrumbo\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csproj.CoreCompileInputs.cache
+C:\Users\Cenbes\Desktop\MOD-PRACE\Ginger Thrumbo\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.dll
+C:\Users\Cenbes\Desktop\MOD-PRACE\Ginger Thrumbo\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.pdb
+C:\Users\Cenbes\Desktop\Thrumbo.dll
+C:\Users\Cenbes\Desktop\Thrumbo.pdb
+C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csprojAssemblyReference.cache
+C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csproj.CoreCompileInputs.cache
+C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.pdb
