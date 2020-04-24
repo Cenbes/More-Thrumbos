@@ -13,3 +13,9 @@ C:\Users\Cenbes\Desktop\Thrumbo.pdb
 C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csprojAssemblyReference.cache
 C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csproj.CoreCompileInputs.cache
 C:\Users\Cenbes\Desktop\MOD-PRACE\1.1. updates\PUSH-RELEASE-More Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.pdb
+D:\GAMES\RimWorld\Mods\More-Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csprojAssemblyReference.cache
+D:\GAMES\RimWorld\Mods\More-Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.csproj.CoreCompileInputs.cache
+D:\GAMES\RimWorld\Mods\More-Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.pdb
+D:\GAMES\RimWorld\Mods\More-Thrumbos\1.1\Assemblies\Thrumbo.dll
+D:\GAMES\RimWorld\Mods\More-Thrumbos\1.1\Assemblies\Thrumbo.pdb
+D:\GAMES\RimWorld\Mods\More-Thrumbos\Source\Thrumbo\Thrumbo\obj\Debug\Thrumbo.dll

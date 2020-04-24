@@ -1,13 +1,12 @@
-﻿using System;
-using Verse;
+﻿using Verse;
 using RimWorld;
 
 namespace Thrumbo
 {
     [DefOf]
-    public static class PawnKindDefOf
+    public static class ThrumboDefOf
     {
-        static PawnKindDefOf()
+        static ThrumboDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(PawnKindDefOf));
         }

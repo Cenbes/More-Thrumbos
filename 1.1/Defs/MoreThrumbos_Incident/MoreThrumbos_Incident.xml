@@ -1,16 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <IncidentDef>
-    <defName>ColoredThrumbo</defName>
-    <label>mysterious thrumbos pass</label>
+	<IncidentDef>
+		<defName>MT_BionicDamagedThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
 		<category>Misc</category>
-    <targetTags>
-      <li>Map_PlayerHome</li>
-    </targetTags>
-    <workerClass>ThrumboWorker.IncidentWorker_SpecialWorker</workerClass>
-    <baseChance>0.7</baseChance>
-    <minRefireDays>8</minRefireDays>
-  </IncidentDef>
- 
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_BionicDamagedThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>MT_BionicThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_BionicThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>MT_BlondThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_BlondThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
+
+	<IncidentDef>
+		<defName>MT_GingerThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_GingerThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
+
+	<IncidentDef>
+		<defName>MT_TalAlarianBlackThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_TalAlarianBlackThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>MT_TalAlarianSilverThrumboPawn</defName>
+		<label>mysterious thrumbos pass</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Thrumbo.IncidentWorker_TalAlarianSilverThrumboPawn</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>8</minRefireDays>
+	</IncidentDef>
+
 </Defs>
